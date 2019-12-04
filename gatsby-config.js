@@ -23,7 +23,6 @@ module.exports = {
       options: {
         region: "eu-central-1",
         bucketName: "halukkurkcuoglu.com",
-        bucketName: "www.halukkurkcuoglu.com",
       },
     },
     'gatsby-plugin-sass',
