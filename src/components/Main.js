@@ -115,28 +115,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">İLETİŞİM</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">İSİM</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">E-Posta</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Mesaj</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="GÖNDER" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="TEMİZLE" />
-              </li>
-            </ul>
-          </form>
           <h4 classname="label">Tel: +905556293983</h4>
           <h4 classname="label">E-Posta: haluk.ebru@gmail.com</h4>
           <ul className="icons">
